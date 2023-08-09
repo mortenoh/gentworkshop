@@ -1,0 +1,68 @@
+{
+  "resourceType": "Patient",
+  "id": "kmAXRRYk2p3",
+  "meta": {
+    "lastUpdated": "2022-03-25T11:42:03.755+01:00",
+    "profile": [
+      "http://example.com/fhir/example/StructureDefinition/DHIS2BasePatient"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+      "valueAddress": {
+        "country": "IQ"
+      }
+    },
+    {
+      "url": "http://example.com/fhir/example/StructureDefinition/ConsentToBeContacted",
+      "valueBoolean": true
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://demos.dhis2.org/hmis/api/trackedEntityInstances",
+      "value": "kmAXRRYk2p3"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://dhis2.org/identifiertypes",
+            "code": "nationalidentifier"
+          }
+        ]
+      },
+      "system": "http://whatever.country/nationalidnamespace",
+      "value": "ID-9152510"
+    }
+  ],
+  "name": [
+    {
+      "family": "Samantha Moore MERGED",
+      "given": ["Juan"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1991-02-26",
+  "address": [
+    {
+      "use": "home",
+      "type": "physical",
+      "text": "993 Christine Course Apt. 044\nEast Micheal, AK 08431"
+    }
+  ],
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "785614 41392120"
+        }
+      ]
+    }
+  ],
+  "managingOrganization": {
+    "reference": "Organization?identifier=OIPTqLl7c3s"
+  }
+}
