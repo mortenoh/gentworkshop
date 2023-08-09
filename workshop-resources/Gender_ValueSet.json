@@ -4,10 +4,46 @@
   "meta": {
     "lastUpdated": "2022-02-10T15:35:46.309+01:00"
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/translation",
+      "extension": [
+        {
+          "url": "lang",
+          "valueCoding": {
+            "system": "urn:iso:std:iso:3166",
+            "code": "cs",
+            "display": "cs"
+          }
+        },
+        {
+          "url": "content",
+          "valueString": "HIV - pohlaví"
+        }
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/translation",
+      "extension": [
+        {
+          "url": "lang",
+          "valueCoding": {
+            "system": "urn:iso:std:iso:3166",
+            "code": "fr",
+            "display": "fr"
+          }
+        },
+        {
+          "url": "content",
+          "valueString": "VIH - Genre"
+        }
+      ]
+    }
+  ],
   "url": "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/ValueSet",
   "identifier": [
     {
-      "system": "http://dhis2.org/optionSet/id",
+      "system": "http://dhis2.org/optionSet/idVS",
       "value": "P0RAq93jsi9"
     }
   ],
@@ -19,7 +55,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/codeSystem"
+        "system": "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem"
       }
     ]
   }

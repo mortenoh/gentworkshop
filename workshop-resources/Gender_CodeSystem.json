@@ -13,6 +13,36 @@
   ],
   "name": "OptionSet_P0RAq93jsi9",
   "title": "HIV - Gender",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "cs"
+          },
+          {
+            "url": "content",
+            "valueString": "HIV - pohlaví"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "fr"
+          },
+          {
+            "url": "content",
+            "valueString": "VIH - Genre"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
   "experimental": false,
   "publisher": "https://demos.dhis2.org/hmis/api",
@@ -23,22 +53,162 @@
     {
       "code": "MALE",
       "display": "Male",
-      "definition": "Male"
+      "definition": "Male",
+      "designation": [
+        {
+          "language": "es",
+          "value": "Masculino"
+        },
+        {
+          "language": "cs",
+          "value": "muž"
+        },
+        {
+          "language": "pt",
+          "value": "Masculino"
+        },
+        {
+          "language": "ar",
+          "value": "ذكور"
+        },
+        {
+          "language": "uz",
+          "value": "Эркак"
+        },
+        {
+          "language": "fr",
+          "value": "Masculin"
+        },
+        {
+          "language": "ru",
+          "value": "мужской"
+        },
+        {
+          "language": "uz_UZ",
+          "value": "Erkak"
+        },
+        {
+          "language": "nb",
+          "value": "Mann"
+        },
+        {
+          "language": "id",
+          "value": "Laki-laki"
+        }
+      ]
     },
     {
       "code": "FEMALE",
       "display": "Female",
-      "definition": "Female"
+      "definition": "Female",
+      "designation": [
+        {
+          "language": "es",
+          "value": "Femenino"
+        },
+        {
+          "language": "ar",
+          "value": "إناث"
+        },
+        {
+          "language": "uz",
+          "value": "Аёл"
+        },
+        {
+          "language": "cs",
+          "value": "ženský"
+        },
+        {
+          "language": "uz_UZ",
+          "value": "Аyol"
+        },
+        {
+          "language": "ru",
+          "value": "женский"
+        },
+        {
+          "language": "nb",
+          "value": "Kvinne"
+        },
+        {
+          "language": "id",
+          "value": "Wanita"
+        },
+        {
+          "language": "fr",
+          "value": "Féminin"
+        },
+        {
+          "language": "pt",
+          "value": "Feminino"
+        }
+      ]
     },
     {
       "code": "TG",
       "display": "Transgender",
-      "definition": "Transgender"
+      "definition": "Transgender",
+      "designation": [
+        {
+          "language": "pt",
+          "value": "Transgênero"
+        },
+        {
+          "language": "cs",
+          "value": "Transsexuál"
+        },
+        {
+          "language": "fr",
+          "value": "Transgenre"
+        }
+      ]
     },
     {
       "code": "OTHER",
       "display": "Other",
-      "definition": "Other"
+      "definition": "Other",
+      "designation": [
+        {
+          "language": "uz",
+          "value": "Бошқалар"
+        },
+        {
+          "language": "ar",
+          "value": "أخرى"
+        },
+        {
+          "language": "id",
+          "value": "Lain-lain"
+        },
+        {
+          "language": "pt",
+          "value": "Outros"
+        },
+        {
+          "language": "cs",
+          "value": "Ostatní"
+        },
+        {
+          "language": "fr",
+          "value": "Autre"
+        },
+        {
+          "language": "nb",
+          "value": "Andre"
+        },
+        {
+          "language": "uz_UZ",
+          "value": "Boshqalar"
+        },
+        {
+          "language": "ru",
+          "value": "Другой"
+        },
+        {
+          "language": "es",
+          "value": "Otro"
+        }
+      ]
     }
   ]
 }
