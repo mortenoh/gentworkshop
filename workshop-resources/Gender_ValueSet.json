@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P0RAq93jsi9",
+  "meta": {
+    "lastUpdated": "2022-02-10T15:35:46.309+01:00"
+  },
+  "url": "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/ValueSet",
+  "identifier": [
+    {
+      "system": "http://dhis2.org/optionSet/id",
+      "value": "P0RAq93jsi9"
+    }
+  ],
+  "name": "OptionSet_P0RAq93jsi9",
+  "title": "HIV - Gender",
+  "status": "active",
+  "experimental": false,
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/codeSystem"
+      }
+    ]
+  }
+}
