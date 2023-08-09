@@ -35,7 +35,7 @@ Description: "Hierarchical level."
 
 Extension: ShortName
 Id: ShortName
-Title: "Short name."
+Title: "Short name"
 Description: "Short name."
 * value[x] only string
 
@@ -43,14 +43,14 @@ Description: "Short name."
 
 Extension: OrganisationUnitGroup
 Id: OrganisationUnitGroup
-Title: "Organisation Unit Group."
+Title: "Organisation Unit Group"
 Description: "Organisation Unit Group."
 * value[x] only Identifier
 
 
 Extension: AttributeValue
 Id: AttributeValue
-Title: "Attribute Value."
+Title: "Attribute Value"
 Description: "Attribute Value."
 * extension contains
     attribute 1..1 MS and
