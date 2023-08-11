@@ -3,7 +3,7 @@ Parent: Location
 Title: ""
 Description: ""
 
-* identifier 3..3 // TO DO: Slice for id, code, href 
+* identifier 0..* // TO DO: Slice for id, code, href 
 * extension contains 
     Level named level 1..1 MS and
     ShortName named shortName 1..1 MS and
@@ -59,3 +59,43 @@ Description: "Attribute Value."
 * extension[attribute].value[x] only Coding
 * extension[value] ^short = "attribute value"
 * extension[value].value[x] only Coding or string or integer or boolean
+
+
+
+
+Instance: OrgUnit1
+InstanceOf: OrgUnit
+
+
+* name = "MyOrgUnit"
+* managingOrganization.reference = "Organization/342342"
+* extension[level].valueInteger = 1
+* extension[shortName].valueString = "MyOrgUnit"
+
+* extension[attribute][+].extension[+].url = #attribute
+* extension[attribute][=].extension[=].valueCoding = #systemXCode
+* extension[attribute][=].extension[+].url = #value
+* extension[attribute][=].extension[=].valueString = "12345"
+
+
+* extension[attribute][+].extension[+].url = #attribute
+* extension[attribute][=].extension[=].valueCoding = #systemXDate
+* extension[attribute][=].extension[+].url = #value
+* extension[attribute][=].extension[=].valueString = "2022-01-02"
+
+
+
+
+RuleSet: StringAttribute(attribute,value)
+* extension[attribute][+].extension[+].url = #attribute
+* extension[attribute][=].extension[=].valueCoding = #{attribute}
+* extension[attribute][=].extension[+].url = #value
+* extension[attribute][=].extension[=].valueString = "{value}"
+
+RuleSet: CodingAttribute(attribute,value)
+* extension[attribute][+].extension[+].url = #attribute
+* extension[attribute][=].extension[=].valueCoding = #{attribute}
+* extension[attribute][=].extension[+].url = #value
+* extension[attribute][=].extension[=].valueString = #{value}
+
+* insert StringAttribute(SystemZcode,123456)
