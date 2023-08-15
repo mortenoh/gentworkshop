@@ -1,0 +1,203 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/CodeSystem/P0RAq93jsi9> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "P0RAq93jsi9"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2022-02-10T15:35:46.309+01:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">MALE<a name=\"P0RAq93jsi9-MALE\"> </a></td><td>Male</td><td>Male</td></tr><tr><td style=\"white-space:nowrap\">FEMALE<a name=\"P0RAq93jsi9-FEMALE\"> </a></td><td>Female</td><td>Female</td></tr><tr><td style=\"white-space:nowrap\">TG<a name=\"P0RAq93jsi9-TG\"> </a></td><td>Transgender</td><td>Transgender</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"P0RAq93jsi9-OTHER\"> </a></td><td>Other</td><td>Other</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Arabic (ar)</b></td><td><b>Czech (cs)</b></td><td><b>Spanish (es)</b></td><td><b>French (fr)</b></td><td><b>id</b></td><td><b>nb</b></td><td><b>Portuguese (pt)</b></td><td><b>Русский (Russian, ru)</b></td><td><b>uz</b></td><td><b>uz_UZ</b></td></tr><tr><td>MALE</td><td>ذكور</td><td>muž</td><td>Masculino</td><td>Masculin</td><td>Laki-laki</td><td>Mann</td><td>Masculino</td><td>мужской</td><td>Эркак</td><td>Erkak</td></tr><tr><td>FEMALE</td><td>إناث</td><td>ženský</td><td>Femenino</td><td>Féminin</td><td>Wanita</td><td>Kvinne</td><td>Feminino</td><td>женский</td><td>Аёл</td><td>Аyol</td></tr><tr><td>TG</td><td></td><td>Transsexuál</td><td></td><td>Transgenre</td><td></td><td></td><td>Transgênero</td><td></td><td></td><td></td></tr><tr><td>OTHER</td><td>أخرى</td><td>Ostatní</td><td>Otro</td><td>Autre</td><td>Lain-lain</td><td>Andre</td><td>Outros</td><td>Другой</td><td>Бошқалар</td><td>Boshqalar</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://dhis2.org/optionSet/id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "P0RAq93jsi9" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "OptionSet_P0RAq93jsi9"] ; # 
+  fhir:title [
+     fhir:v "HIV - Gender" ;
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "cs" ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "HIV - pohlaví" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "fr" ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "VIH - Genre" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] )
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-08-15T08:22:58+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "My Organization"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "My Organization" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.com/committees" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "my-group@example.com" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Bob Smith" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "bobsmith@example.com" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:valueSet [
+     fhir:v "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/ValueSet"^^xsd:anyURI ;
+     fhir:link <https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/ValueSet>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "MALE" ] ;
+     fhir:display [ fhir:v "Male" ] ;
+     fhir:definition [ fhir:v "Male" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Masculino" ]
+     ] [
+       fhir:language [ fhir:v "cs" ] ;
+       fhir:value [ fhir:v "muž" ]
+     ] [
+       fhir:language [ fhir:v "pt" ] ;
+       fhir:value [ fhir:v "Masculino" ]
+     ] [
+       fhir:language [ fhir:v "ar" ] ;
+       fhir:value [ fhir:v "ذكور" ]
+     ] [
+       fhir:language [ fhir:v "uz" ] ;
+       fhir:value [ fhir:v "Эркак" ]
+     ] [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Masculin" ]
+     ] [
+       fhir:language [ fhir:v "ru" ] ;
+       fhir:value [ fhir:v "мужской" ]
+     ] [
+       fhir:language [ fhir:v "uz_UZ" ] ;
+       fhir:value [ fhir:v "Erkak" ]
+     ] [
+       fhir:language [ fhir:v "nb" ] ;
+       fhir:value [ fhir:v "Mann" ]
+     ] [
+       fhir:language [ fhir:v "id" ] ;
+       fhir:value [ fhir:v "Laki-laki" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FEMALE" ] ;
+     fhir:display [ fhir:v "Female" ] ;
+     fhir:definition [ fhir:v "Female" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Femenino" ]
+     ] [
+       fhir:language [ fhir:v "ar" ] ;
+       fhir:value [ fhir:v "إناث" ]
+     ] [
+       fhir:language [ fhir:v "uz" ] ;
+       fhir:value [ fhir:v "Аёл" ]
+     ] [
+       fhir:language [ fhir:v "cs" ] ;
+       fhir:value [ fhir:v "ženský" ]
+     ] [
+       fhir:language [ fhir:v "uz_UZ" ] ;
+       fhir:value [ fhir:v "Аyol" ]
+     ] [
+       fhir:language [ fhir:v "ru" ] ;
+       fhir:value [ fhir:v "женский" ]
+     ] [
+       fhir:language [ fhir:v "nb" ] ;
+       fhir:value [ fhir:v "Kvinne" ]
+     ] [
+       fhir:language [ fhir:v "id" ] ;
+       fhir:value [ fhir:v "Wanita" ]
+     ] [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Féminin" ]
+     ] [
+       fhir:language [ fhir:v "pt" ] ;
+       fhir:value [ fhir:v "Feminino" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TG" ] ;
+     fhir:display [ fhir:v "Transgender" ] ;
+     fhir:definition [ fhir:v "Transgender" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "pt" ] ;
+       fhir:value [ fhir:v "Transgênero" ]
+     ] [
+       fhir:language [ fhir:v "cs" ] ;
+       fhir:value [ fhir:v "Transsexuál" ]
+     ] [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Transgenre" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Other" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "uz" ] ;
+       fhir:value [ fhir:v "Бошқалар" ]
+     ] [
+       fhir:language [ fhir:v "ar" ] ;
+       fhir:value [ fhir:v "أخرى" ]
+     ] [
+       fhir:language [ fhir:v "id" ] ;
+       fhir:value [ fhir:v "Lain-lain" ]
+     ] [
+       fhir:language [ fhir:v "pt" ] ;
+       fhir:value [ fhir:v "Outros" ]
+     ] [
+       fhir:language [ fhir:v "cs" ] ;
+       fhir:value [ fhir:v "Ostatní" ]
+     ] [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Autre" ]
+     ] [
+       fhir:language [ fhir:v "nb" ] ;
+       fhir:value [ fhir:v "Andre" ]
+     ] [
+       fhir:language [ fhir:v "uz_UZ" ] ;
+       fhir:value [ fhir:v "Boshqalar" ]
+     ] [
+       fhir:language [ fhir:v "ru" ] ;
+       fhir:value [ fhir:v "Другой" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Otro" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

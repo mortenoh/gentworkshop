@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "patient-sex-at-birth-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-patient-sex-at-birth.html\"><code>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</code></a></li></ul></div>"
+  },
+  "url" : "http://example.com/fhir/example/ValueSet/patient-sex-at-birth-vs",
+  "version" : "1.0.0",
+  "name" : "PatientSexAtBirthVS",
+  "status" : "active",
+  "date" : "2023-08-11T04:48:27+00:00",
+  "publisher" : "My Organization",
+  "contact" : [{
+    "name" : "My Organization",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"
+    }]
+  }
+}

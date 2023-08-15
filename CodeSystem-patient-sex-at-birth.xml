@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="patient-sex-at-birth"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">male<a name="patient-sex-at-birth-male"> </a></td><td>Male</td></tr><tr><td style="white-space:nowrap">female<a name="patient-sex-at-birth-female"> </a></td><td>Female</td></tr><tr><td style="white-space:nowrap">other<a name="patient-sex-at-birth-other"> </a></td><td>Other</td></tr><tr><td style="white-space:nowrap">unknown<a name="patient-sex-at-birth-unknown"> </a></td><td>Unknown</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Spanish (es)</b></td><td><b>et</b></td><td><b>Portuguese (pt)</b></td></tr><tr><td>male</td><td>Masculino</td><td>Mees</td><td>Masculino</td></tr><tr><td>female</td><td>Feminino</td><td>Naine</td><td>Feminino</td></tr><tr><td>other</td><td>Otro</td><td>Muu</td><td>Outro</td></tr><tr><td>unknown</td><td>Desconocido</td><td>Teadmata</td><td>Desconhecido</td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"/>
+  <version value="1.0.0"/>
+  <name value="PatientSexAtBirth"/>
+  <title value="Patient sex at birth"/>
+  <status value="active"/>
+  <date value="2023-08-15T08:22:58+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="male"/>
+    <display value="Male"/>
+    <designation>
+      <language value="pt"/>
+      <value value="Masculino"/>
+    </designation>
+    <designation>
+      <language value="es"/>
+      <value value="Masculino"/>
+    </designation>
+    <designation>
+      <language value="et"/>
+      <value value="Mees"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="female"/>
+    <display value="Female"/>
+    <designation>
+      <language value="pt"/>
+      <value value="Feminino"/>
+    </designation>
+    <designation>
+      <language value="es"/>
+      <value value="Feminino"/>
+    </designation>
+    <designation>
+      <language value="et"/>
+      <value value="Naine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <designation>
+      <language value="pt"/>
+      <value value="Outro"/>
+    </designation>
+    <designation>
+      <language value="es"/>
+      <value value="Otro"/>
+    </designation>
+    <designation>
+      <language value="et"/>
+      <value value="Muu"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <designation>
+      <language value="pt"/>
+      <value value="Desconhecido"/>
+    </designation>
+    <designation>
+      <language value="es"/>
+      <value value="Desconocido"/>
+    </designation>
+    <designation>
+      <language value="et"/>
+      <value value="Teadmata"/>
+    </designation>
+  </concept>
+</CodeSystem>

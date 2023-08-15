@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Location/OrgUnit1> a fhir:Location ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "OrgUnit1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://example.com/fhir/example/StructureDefinition/OrgUnit"^^xsd:anyURI ;
+       fhir:link <http://example.com/fhir/example/StructureDefinition/OrgUnit>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Location</b><a name=\"OrgUnit1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Location &quot;OrgUnit1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-OrgUnit.html\">OrgUnit</a></p></div><p><b>Level</b>: 1</p><p><b>Short name</b>: MyOrgUnit</p><blockquote><p><b>Attribute Value</b></p><blockquote><p><b>url</b></p><code>attribute</code></blockquote><p><b>value</b>: systemXCode (Details: [not stated] code systemXCode = 'systemXCode', stated as 'null')</p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: 12345</p></blockquote><blockquote><p><b>Attribute Value</b></p><blockquote><p><b>url</b></p><code>attribute</code></blockquote><p><b>value</b>: systemXDate (Details: [not stated] code systemXDate = 'systemXDate', stated as 'null')</p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: 2022-01-02</p></blockquote><p><b>name</b>: MyOrgUnit</p><p><b>managingOrganization</b>: <a href=\"Organization/342342\">Organization/342342</a></p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://example.com/fhir/example/StructureDefinition/Level"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1"^^xsd:integer ]
+  ] [
+     fhir:url [ fhir:v "http://example.com/fhir/example/StructureDefinition/ShortName"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "MyOrgUnit" ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "attribute"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:code [ fhir:v "systemXCode" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "12345" ]
+     ] ) ;
+     fhir:url [ fhir:v "http://example.com/fhir/example/StructureDefinition/AttributeValue"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "attribute"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:code [ fhir:v "systemXDate" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "2022-01-02" ]
+     ] ) ;
+     fhir:url [ fhir:v "http://example.com/fhir/example/StructureDefinition/AttributeValue"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:name [ fhir:v "MyOrgUnit"] ; # 
+  fhir:managingOrganization [
+     fhir:link <http://example.com/fhir/example/Organization/342342> ;
+     fhir:reference [ fhir:v "Organization/342342" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

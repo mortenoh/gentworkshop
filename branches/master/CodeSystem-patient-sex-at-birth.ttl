@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/CodeSystem/patient-sex-at-birth> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "patient-sex-at-birth"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">male<a name=\"patient-sex-at-birth-male\"> </a></td><td>Male</td></tr><tr><td style=\"white-space:nowrap\">female<a name=\"patient-sex-at-birth-female\"> </a></td><td>Female</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"patient-sex-at-birth-other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"patient-sex-at-birth-unknown\"> </a></td><td>Unknown</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Spanish (es)</b></td><td><b>et</b></td><td><b>Portuguese (pt)</b></td></tr><tr><td>male</td><td>Masculino</td><td>Mees</td><td>Masculino</td></tr><tr><td>female</td><td>Feminino</td><td>Naine</td><td>Feminino</td></tr><tr><td>other</td><td>Otro</td><td>Muu</td><td>Outro</td></tr><tr><td>unknown</td><td>Desconocido</td><td>Teadmata</td><td>Desconhecido</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "PatientSexAtBirth"] ; # 
+  fhir:title [ fhir:v "Patient sex at birth"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-08-11T04:48:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "My Organization"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "My Organization" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.com/committees" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "my-group@example.com" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Bob Smith" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "bobsmith@example.com" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "male" ] ;
+     fhir:display [ fhir:v "Male" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "pt" ] ;
+       fhir:value [ fhir:v "Masculino" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Masculino" ]
+     ] [
+       fhir:language [ fhir:v "et" ] ;
+       fhir:value [ fhir:v "Mees" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "female" ] ;
+     fhir:display [ fhir:v "Female" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "pt" ] ;
+       fhir:value [ fhir:v "Feminino" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Feminino" ]
+     ] [
+       fhir:language [ fhir:v "et" ] ;
+       fhir:value [ fhir:v "Naine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "pt" ] ;
+       fhir:value [ fhir:v "Outro" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Otro" ]
+     ] [
+       fhir:language [ fhir:v "et" ] ;
+       fhir:value [ fhir:v "Muu" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "pt" ] ;
+       fhir:value [ fhir:v "Desconhecido" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Desconocido" ]
+     ] [
+       fhir:language [ fhir:v "et" ] ;
+       fhir:value [ fhir:v "Teadmata" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

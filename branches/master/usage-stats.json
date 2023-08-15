@@ -1,0 +1,199 @@
+{
+  "package": "dhis2.fhir.demo.base",
+  "version": "1.0.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [
+    {
+      "url": "http://example.com/fhir/example/StructureDefinition/AttributeValue",
+      "title": "Attribute Value",
+      "types": [
+        "Coding",
+        "boolean",
+        "integer",
+        "string",
+        "Coding",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "http://example.com/fhir/example/StructureDefinition/ConsentToBeContacted",
+      "title": "ConsentToBeContact",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://example.com/fhir/example/StructureDefinition/DateOfBirthIsEstimated",
+      "title": "DateOfBirthIsEstimated",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://example.com/fhir/example/StructureDefinition/Level",
+      "title": "Level",
+      "types": [
+        "integer"
+      ]
+    },
+    {
+      "url": "http://example.com/fhir/example/StructureDefinition/OrganisationUnitGroup",
+      "title": "Organisation Unit Group",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "http://example.com/fhir/example/StructureDefinition/ShortName",
+      "title": "Short name",
+      "types": [
+        "string"
+      ]
+    }
+  ],
+  "profiles": {
+    "Patient": [
+      {
+        "url": "http://example.com/fhir/example/StructureDefinition/DHIS2BasePatient",
+        "title": "DHIS2 Patient profile"
+      }
+    ],
+    "Location": [
+      {
+        "url": "http://example.com/fhir/example/StructureDefinition/OrgUnit",
+        "title": "OrgUnit"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "http://example.com/fhir/example/StructureDefinition/OrgUnitOrganization",
+        "title": "OrgUnitOrganization"
+      }
+    ]
+  },
+  "usage": {
+    "http://example.com/fhir/example/StructureDefinition/AttributeValue": [
+      "Location"
+    ],
+    "http://example.com/fhir/example/StructureDefinition/ConsentToBeContacted": [
+      "Patient"
+    ],
+    "http://example.com/fhir/example/StructureDefinition/DateOfBirthIsEstimated": [
+      "Patient.birthDate"
+    ],
+    "http://example.com/fhir/example/StructureDefinition/Level": [
+      "Location"
+    ],
+    "http://example.com/fhir/example/StructureDefinition/OrganisationUnitGroup": [
+      "Location"
+    ],
+    "http://example.com/fhir/example/StructureDefinition/ShortName": [
+      "Location"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/location-boundary-geojson": [
+      "Location"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/organization-period": [
+      "Organization"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/translation": [
+      "CodeSystem.title"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

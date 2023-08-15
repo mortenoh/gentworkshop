@@ -1,0 +1,54 @@
+{
+  "resourceType" : "Patient",
+  "id" : "DHIS2BasePatient1",
+  "meta" : {
+    "profile" : ["http://example.com/fhir/example/StructureDefinition/DHIS2BasePatient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Morten Hansen </b> male, DoB: 1981-01-01 ( nationalidentifier: 1234234245)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail:</td><td colspan=\"3\">Vietnamgate 123, Oslo(HOME)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient contact\">Contact</td><td colspan=\"3\"><ul><li>ph: 1234567</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The registered place of birth of the patient. A sytem may use the address.text if they don't store the birthPlace address in discrete elements.\"><a href=\"http://hl7.org/fhir/R4/extension-patient-birthplace.html\">Birth Place:</a></td><td colspan=\"3\"><ul><li>NO </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient gives consent to be contacted.\"><a href=\"StructureDefinition-ConsentToBeContacted.html\">ConsentToBeContact:</a></td><td colspan=\"3\"><ul><li>true</li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+    "valueAddress" : {
+      "country" : "NO"
+    }
+  },
+  {
+    "url" : "http://example.com/fhir/example/StructureDefinition/ConsentToBeContacted",
+    "valueBoolean" : true
+  }],
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://dhis2.org/identifiertypes",
+        "code" : "nationalidentifier"
+      }]
+    },
+    "system" : "http://whatever.country/nationalidnamespace",
+    "value" : "1234234245"
+  }],
+  "name" : [{
+    "family" : "Hansen",
+    "given" : ["Morten"]
+  }],
+  "gender" : "male",
+  "birthDate" : "1981-01-01",
+  "_birthDate" : {
+    "extension" : [{
+      "url" : "http://example.com/fhir/example/StructureDefinition/DateOfBirthIsEstimated",
+      "valueBoolean" : true
+    }]
+  },
+  "address" : [{
+    "use" : "home",
+    "type" : "physical",
+    "text" : "Vietnamgate 123, Oslo"
+  }],
+  "contact" : [{
+    "telecom" : [{
+      "system" : "phone",
+      "value" : "1234567"
+    }]
+  }]
+}

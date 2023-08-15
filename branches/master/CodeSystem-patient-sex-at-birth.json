@@ -1,0 +1,107 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "patient-sex-at-birth",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">male<a name=\"patient-sex-at-birth-male\"> </a></td><td>Male</td></tr><tr><td style=\"white-space:nowrap\">female<a name=\"patient-sex-at-birth-female\"> </a></td><td>Female</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"patient-sex-at-birth-other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"patient-sex-at-birth-unknown\"> </a></td><td>Unknown</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Spanish (es)</b></td><td><b>et</b></td><td><b>Portuguese (pt)</b></td></tr><tr><td>male</td><td>Masculino</td><td>Mees</td><td>Masculino</td></tr><tr><td>female</td><td>Feminino</td><td>Naine</td><td>Feminino</td></tr><tr><td>other</td><td>Otro</td><td>Muu</td><td>Outro</td></tr><tr><td>unknown</td><td>Desconocido</td><td>Teadmata</td><td>Desconhecido</td></tr></table></div>"
+  },
+  "url" : "http://example.com/fhir/example/CodeSystem/patient-sex-at-birth",
+  "version" : "1.0.0",
+  "name" : "PatientSexAtBirth",
+  "title" : "Patient sex at birth",
+  "status" : "active",
+  "date" : "2023-08-11T04:48:27+00:00",
+  "publisher" : "My Organization",
+  "contact" : [{
+    "name" : "My Organization",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "male",
+    "display" : "Male",
+    "designation" : [{
+      "language" : "pt",
+      "value" : "Masculino"
+    },
+    {
+      "language" : "es",
+      "value" : "Masculino"
+    },
+    {
+      "language" : "et",
+      "value" : "Mees"
+    }]
+  },
+  {
+    "code" : "female",
+    "display" : "Female",
+    "designation" : [{
+      "language" : "pt",
+      "value" : "Feminino"
+    },
+    {
+      "language" : "es",
+      "value" : "Feminino"
+    },
+    {
+      "language" : "et",
+      "value" : "Naine"
+    }]
+  },
+  {
+    "code" : "other",
+    "display" : "Other",
+    "designation" : [{
+      "language" : "pt",
+      "value" : "Outro"
+    },
+    {
+      "language" : "es",
+      "value" : "Otro"
+    },
+    {
+      "language" : "et",
+      "value" : "Muu"
+    }]
+  },
+  {
+    "code" : "unknown",
+    "display" : "Unknown",
+    "designation" : [{
+      "language" : "pt",
+      "value" : "Desconhecido"
+    },
+    {
+      "language" : "es",
+      "value" : "Desconocido"
+    },
+    {
+      "language" : "et",
+      "value" : "Teadmata"
+    }]
+  }]
+}

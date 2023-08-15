@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="f5d3ea13-c366-491a-ab0e-9dae9e80cb40"/>
+  <meta>
+    <lastUpdated value="2023-08-15T08:22:58.569+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/patient-sex-at-birth-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-patient-sex-at-birth.html">Patient sex at birth v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-patient-sex-at-birth-male"> </a>  
+                  <a href="CodeSystem-patient-sex-at-birth.html#patient-sex-at-birth-male">male</a>
+                </td>
+                <td>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</td>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-patient-sex-at-birth-female"> </a>  
+                  <a href="CodeSystem-patient-sex-at-birth.html#patient-sex-at-birth-female">female</a>
+                </td>
+                <td>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</td>
+                <td>Female</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-patient-sex-at-birth-other"> </a>  
+                  <a href="CodeSystem-patient-sex-at-birth.html#patient-sex-at-birth-other">other</a>
+                </td>
+                <td>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</td>
+                <td>Other</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-patient-sex-at-birth-unknown"> </a>  
+                  <a href="CodeSystem-patient-sex-at-birth.html#patient-sex-at-birth-unknown">unknown</a>
+                </td>
+                <td>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</td>
+                <td>Unknown</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/patient-sex-at-birth-vs"/>
+        <version value="1.0.0"/>
+        <name value="PatientSexAtBirthVS"/>
+        <status value="active"/>
+        <date value="2023-08-15T08:22:58+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ee4c031b-03ea-401e-b256-f06dfbc69791"/>
+          <timestamp value="2023-08-15T08:23:42+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"/>
+            <code value="unknown"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/patient-sex-at-birth-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-patient-sex-at-birth.html">Patient sex at birth v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-patient-sex-at-birth-male"> </a>  
+                  <a href="CodeSystem-patient-sex-at-birth.html#patient-sex-at-birth-male">male</a>
+                </td>
+                <td>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</td>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-patient-sex-at-birth-female"> </a>  
+                  <a href="CodeSystem-patient-sex-at-birth.html#patient-sex-at-birth-female">female</a>
+                </td>
+                <td>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</td>
+                <td>Female</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-patient-sex-at-birth-other"> </a>  
+                  <a href="CodeSystem-patient-sex-at-birth.html#patient-sex-at-birth-other">other</a>
+                </td>
+                <td>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</td>
+                <td>Other</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-patient-sex-at-birth-unknown"> </a>  
+                  <a href="CodeSystem-patient-sex-at-birth.html#patient-sex-at-birth-unknown">unknown</a>
+                </td>
+                <td>http://example.com/fhir/example/CodeSystem/patient-sex-at-birth</td>
+                <td>Unknown</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/patient-sex-at-birth-vs"/>
+        <version value="1.0.0"/>
+        <name value="PatientSexAtBirthVS"/>
+        <status value="active"/>
+        <date value="2023-08-15T08:22:58+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ee4c031b-03ea-401e-b256-f06dfbc69791"/>
+          <timestamp value="2023-08-15T08:23:42+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/patient-sex-at-birth"/>
+            <code value="unknown"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

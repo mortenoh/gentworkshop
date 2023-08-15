@@ -1,0 +1,110 @@
+﻿ExampleIG : Validation Results
+=========================================
+
+err = 14, warn = 29, info = 20
+IG Publisher Version: 1.3.28
+Generated Tue Aug 15 08:24:34 UTC 2023. FHIR version 4.0.1 for dhis2.fhir.demo.base#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 2 / 12 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-patient-sex-at-birth : 0 / 3 / 6
+ /github/workspace/fsh-generated/resources/ImplementationGuide-dhis2.fhir.demo.base : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-OrgUnit1 : 1 / 2 / 1
+ /github/workspace/fsh-generated/resources/Patient-DHIS2BasePatient1 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-PatientRegistrationQuestionnaire : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-AttributeValue : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-BaseOrgUnit : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ConsentToBeContacted : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DHIS2BasePatient : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-DateOfBirthIsEstimated : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Level : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-OrgUnit : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-OrgUnitOrganization : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-OrganisationUnitGroup : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PatientInfo : 5 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ShortName : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-patient-sex-at-birth-vs : 0 / 3 / 1
+ /github/workspace/input/resources/Gender_CodeSystem : 2 / 1 / 13
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: PatientInfo.countryOfBirth: The reference urn:iso:std:iso:3166 could not be resolved
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/OrgUnit.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/OrgUnitOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/patient-sex-at-birth-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/P0RAq93jsi9.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/patient-sex-at-birth.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/OrgUnit1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/Questionnaire-PatientRegistrationQuestionnaire-form.html: Unable to read attribute on <div> at line 221 column 71
+ERROR: /github/workspace/output/Location-OrgUnit1.html#/html/body/div/div/div/div/div/div/p/a at Line 217, column 1188: The link 'Organization/342342' for "Organization/342342" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-patient-sex-at-birth.json ==
+INFORMATION: CodeSystem/patient-sex-at-birth: CodeSystem.concept[0].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#et is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/patient-sex-at-birth: CodeSystem.concept[1].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#et is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/patient-sex-at-birth: CodeSystem.concept[2].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#et is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/patient-sex-at-birth: CodeSystem.concept[3].designation[2].language: The value provided ('et') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#et is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/patient-sex-at-birth: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/patient-sex-at-birth: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/patient-sex-at-birth: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/patient-sex-at-birth: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/ImplementationGuide-dhis2.fhir.demo.base.json ==
+ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-dhis2.fhir.demo.base.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/dhis2.fhir.demo.base) does not match the URL (http://example.com/fhir/example)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: dhis2.fhir.demo.base/http://example.com/fhir/example
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-dhis2.fhir.demo.base: URL Mismatch http://example.com/fhir/example/ImplementationGuide/dhis2.fhir.demo.base vs http://example.com/fhir/example
+== fsh-generated/resources/Location-OrgUnit1.json ==
+WARNING: Location/OrgUnit1: Location.extension[2].extension[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Location/OrgUnit1: Location.extension[3].extension[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+ERROR: Location/OrgUnit1: Location.managingOrganization: Unable to resolve resource with reference 'Organization/342342'
+== fsh-generated/resources/Patient-DHIS2BasePatient1.json ==
+INFORMATION: Patient/DHIS2BasePatient1: Patient.identifier[0].type.coding[0]: Code System URI 'http://dhis2.org/identifiertypes' is unknown so the code cannot be validated
+== fsh-generated/resources/Questionnaire-PatientRegistrationQuestionnaire.json ==
+ERROR: Questionnaire/PatientRegistrationQuestionnaire: Questionnaire: Rule dom-3: 'If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource' Failed (unmatched: patient-sex-at-birth-vs) (log:  (unmatched: patient-sex-at-birth-vs))
+ERROR: Questionnaire/PatientRegistrationQuestionnaire: Questionnaire.item[9].answerValueSet: Canonical URL 'http://hl7.org/fhir/ValueSet/country' does not resolve
+== fsh-generated/resources/StructureDefinition-AttributeValue.json ==
+WARNING: StructureDefinition/AttributeValue: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-BaseOrgUnit.json ==
+ERROR: StructureDefinition/BaseOrgUnit: StructureDefinition.snapshot: Rule sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities' Failed
+== fsh-generated/resources/StructureDefinition-ConsentToBeContacted.json ==
+WARNING: StructureDefinition/ConsentToBeContacted: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-DHIS2BasePatient.json ==
+INFORMATION: StructureDefinition/DHIS2BasePatient: StructureDefinition.snapshot.element[32].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://dhis2.org/identifiertypes' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/DHIS2BasePatient: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://dhis2.org/identifiertypes' is unknown so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-DateOfBirthIsEstimated.json ==
+WARNING: StructureDefinition/DateOfBirthIsEstimated: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-Level.json ==
+WARNING: StructureDefinition/Level: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-OrgUnit.json ==
+== fsh-generated/resources/StructureDefinition-OrgUnitOrganization.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/OrgUnitOrganization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-OrganisationUnitGroup.json ==
+WARNING: StructureDefinition/OrganisationUnitGroup: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/OrganisationUnitGroup'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-PatientInfo.json ==
+ERROR: StructureDefinition/PatientInfo: StructureDefinition.snapshot: Rule sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities' Failed
+ERROR: StructureDefinition/PatientInfo: StructureDefinition.snapshot.element[10].binding.valueSet: Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/PatientInfo: StructureDefinition.differential.element[10].binding.valueSet: Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/PatientInfo: StructureDefinition.differential.element[10].binding: The valueSet reference urn:iso:std:iso:3166 on element PatientInfo.countryOfBirth points to something that is not a value set (CodeSystem)
+ERROR: StructureDefinition/PatientInfo: StructureDefinition.snapshot.element[10].binding: The valueSet reference urn:iso:std:iso:3166 on element PatientInfo.countryOfBirth points to something that is not a value set (CodeSystem)
+== fsh-generated/resources/StructureDefinition-ShortName.json ==
+WARNING: StructureDefinition/ShortName: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/ValueSet-patient-sex-at-birth-vs.json ==
+WARNING: ValueSet/patient-sex-at-birth-vs: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet/patient-sex-at-birth-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet/patient-sex-at-birth-vs: ValueSet: The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== input/resources/Gender_CodeSystem.json ==
+ERROR: CodeSystem.where(url = 'https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem'): Conformance resource /github/workspace/input/resources/Gender_CodeSystem.json - the canonical URL (http://example.com/fhir/example/CodeSystem/P0RAq93jsi9) does not match the URL (https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem)
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[0].designation[4].language: The value provided ('uz') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#uz is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[0].designation[7].language: The value provided ('uz_UZ') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#uz_UZ is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[0].designation[8].language: The value provided ('nb') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#nb is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[0].designation[9].language: The value provided ('id') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#id is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[1].designation[2].language: The value provided ('uz') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#uz is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[1].designation[4].language: The value provided ('uz_UZ') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#uz_UZ is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[1].designation[6].language: The value provided ('nb') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#nb is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[1].designation[7].language: The value provided ('id') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#id is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[3].designation[0].language: The value provided ('uz') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#uz is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[3].designation[2].language: The value provided ('id') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#id is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[3].designation[6].language: The value provided ('nb') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#nb is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+INFORMATION: CodeSystem/P0RAq93jsi9: CodeSystem.concept[3].designation[7].language: The value provided ('uz_UZ') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code urn:ietf:bcp:47#uz_UZ is not in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1' (from Tx-Server))
+WARNING: CodeSystem/P0RAq93jsi9: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/input/resources/Gender_CodeSystem: URL Mismatch http://example.com/fhir/example/CodeSystem/P0RAq93jsi9 vs https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem

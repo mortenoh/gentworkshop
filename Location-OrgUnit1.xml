@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="OrgUnit1"/>
+  <meta>
+    <profile value="http://example.com/fhir/example/StructureDefinition/OrgUnit"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Location</b><a name="OrgUnit1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Location &quot;OrgUnit1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-OrgUnit.html">OrgUnit</a></p></div><p><b>Level</b>: 1</p><p><b>Short name</b>: MyOrgUnit</p><blockquote><p><b>Attribute Value</b></p><blockquote><p><b>url</b></p><code>attribute</code></blockquote><p><b>value</b>: systemXCode (Details: [not stated] code systemXCode = 'systemXCode', stated as 'null')</p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: 12345</p></blockquote><blockquote><p><b>Attribute Value</b></p><blockquote><p><b>url</b></p><code>attribute</code></blockquote><p><b>value</b>: systemXDate (Details: [not stated] code systemXDate = 'systemXDate', stated as 'null')</p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: 2022-01-02</p></blockquote><p><b>name</b>: MyOrgUnit</p><p><b>managingOrganization</b>: <a href="Organization/342342">Organization/342342</a></p></div>
+  </text>
+  <extension url="http://example.com/fhir/example/StructureDefinition/Level">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://example.com/fhir/example/StructureDefinition/ShortName">
+    <valueString value="MyOrgUnit"/>
+  </extension>
+  <extension url="http://example.com/fhir/example/StructureDefinition/AttributeValue">
+    <extension url="attribute">
+      <valueCoding>
+        <code value="systemXCode"/>
+      </valueCoding>
+    </extension>
+    <extension url="value">
+      <valueString value="12345"/>
+    </extension>
+  </extension>
+  <extension url="http://example.com/fhir/example/StructureDefinition/AttributeValue">
+    <extension url="attribute">
+      <valueCoding>
+        <code value="systemXDate"/>
+      </valueCoding>
+    </extension>
+    <extension url="value">
+      <valueString value="2022-01-02"/>
+    </extension>
+  </extension>
+  <name value="MyOrgUnit"/>
+  <managingOrganization>
+    <reference value="Organization/342342"/>
+  </managingOrganization>
+</Location>

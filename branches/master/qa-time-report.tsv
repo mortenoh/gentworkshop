@@ -1,0 +1,19 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	responsesForQuestionnaire	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-dhis2.fhir.demo.base.json	5613	-	0	0	0	0	0	0	4	990	0	0	0	0	0	0	0	0	0	0	150	257	0	0	0	0	4	0	1
+input/resources/Gender_CodeSystem.json	4387	53	0	0	0	0	0	0	1	68	0	0	0	0	0	0	0	0	0	0	31	2638	1	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-PatientInfo.json	4838	500	0	0	0	0	0	973	0	1050	0	0	0	0	0	0	0	1	0	0	97	1239	0	0	1	0	3	0	0
+fsh-generated/resources/StructureDefinition-ShortName.json	1282	151	0	0	0	0	0	376	0	352	0	0	0	0	0	0	0	0	0	0	48	413	0	0	0	0	4	0	1
+fsh-generated/resources/ValueSet-patient-sex-at-birth-vs.json	343	9	0	0	0	0	0	0	0	94	0	0	0	0	0	0	0	0	0	0	9	8464	0	0	0	0	0	0	0
+fsh-generated/resources/Location-OrgUnit1.json	1173	56	0	0	0	0	0	0	1	258	0	0	0	0	0	0	0	0	0	0	12	19	0	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-OrganisationUnitGroup.json	1386	144	0	0	0	0	0	355	0	331	0	0	0	0	0	0	0	0	0	0	48	252	0	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-AttributeValue.json	2853	418	0	0	0	0	0	1026	0	1096	0	0	0	0	0	0	0	1	0	0	150	572	0	0	0	0	5	0	0
+fsh-generated/resources/Patient-DHIS2BasePatient1.json	1362	12	1	0	0	0	0	0	0	99	0	0	0	0	0	0	0	0	0	0	13	20	0	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-patient-sex-at-birth.json	1599	8	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	15	40	0	0	0	0	7	0	0
+fsh-generated/resources/StructureDefinition-Level.json	1273	140	0	0	0	0	0	408	0	339	0	0	0	0	0	0	0	0	0	0	46	346	0	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-OrgUnitOrganization.json	1925	153	0	0	0	0	0	1636	0	1566	0	0	1	0	0	0	0	1	0	0	200	1018	0	0	0	0	5	0	1
+fsh-generated/resources/Questionnaire-PatientRegistrationQuestionnaire.json	2989	11	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	55	76	0	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-BaseOrgUnit.json	3881	489	0	0	0	0	0	960	0	964	0	0	0	0	0	0	0	0	0	0	79	305	0	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-OrgUnit.json	3722	360	0	0	0	0	0	2121	1	2122	0	0	0	0	0	0	0	0	0	0	247	1470	0	0	0	0	6	0	1
+fsh-generated/resources/StructureDefinition-DHIS2BasePatient.json	6699	770	0	0	0	0	0	5827	0	5735	0	0	0	0	0	0	0	2	0	0	725	3497	0	0	0	0	17	0	1
+fsh-generated/resources/StructureDefinition-ConsentToBeContacted.json	1397	146	0	0	0	0	0	365	0	327	0	0	0	0	0	0	0	0	0	0	48	170	0	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-DateOfBirthIsEstimated.json	1311	143	0	0	0	0	0	343	0	327	0	0	0	0	0	0	0	0	0	0	48	171	0	0	0	0	2	0	0

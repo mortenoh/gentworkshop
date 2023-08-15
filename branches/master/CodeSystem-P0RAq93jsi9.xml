@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="P0RAq93jsi9"/>
+  <meta>
+    <lastUpdated value="2022-02-10T15:35:46.309+01:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">MALE<a name="P0RAq93jsi9-MALE"> </a></td><td>Male</td><td>Male</td></tr><tr><td style="white-space:nowrap">FEMALE<a name="P0RAq93jsi9-FEMALE"> </a></td><td>Female</td><td>Female</td></tr><tr><td style="white-space:nowrap">TG<a name="P0RAq93jsi9-TG"> </a></td><td>Transgender</td><td>Transgender</td></tr><tr><td style="white-space:nowrap">OTHER<a name="P0RAq93jsi9-OTHER"> </a></td><td>Other</td><td>Other</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Arabic (ar)</b></td><td><b>Czech (cs)</b></td><td><b>Spanish (es)</b></td><td><b>French (fr)</b></td><td><b>id</b></td><td><b>nb</b></td><td><b>Portuguese (pt)</b></td><td><b>Русский (Russian, ru)</b></td><td><b>uz</b></td><td><b>uz_UZ</b></td></tr><tr><td>MALE</td><td>ذكور</td><td>muž</td><td>Masculino</td><td>Masculin</td><td>Laki-laki</td><td>Mann</td><td>Masculino</td><td>мужской</td><td>Эркак</td><td>Erkak</td></tr><tr><td>FEMALE</td><td>إناث</td><td>ženský</td><td>Femenino</td><td>Féminin</td><td>Wanita</td><td>Kvinne</td><td>Feminino</td><td>женский</td><td>Аёл</td><td>Аyol</td></tr><tr><td>TG</td><td></td><td>Transsexuál</td><td></td><td>Transgenre</td><td></td><td></td><td>Transgênero</td><td></td><td></td><td></td></tr><tr><td>OTHER</td><td>أخرى</td><td>Ostatní</td><td>Otro</td><td>Autre</td><td>Lain-lain</td><td>Andre</td><td>Outros</td><td>Другой</td><td>Бошқалар</td><td>Boshqalar</td></tr></table></div>
+  </text>
+  <url value="https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem"/>
+  <identifier>
+    <system value="http://dhis2.org/optionSet/id"/>
+    <value value="P0RAq93jsi9"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="OptionSet_P0RAq93jsi9"/>
+  <title value="HIV - Gender">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="cs"/>
+      </extension>
+      <extension url="content">
+        <valueString value="HIV - pohlaví"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="fr"/>
+      </extension>
+      <extension url="content">
+        <valueString value="VIH - Genre"/>
+      </extension>
+    </extension>
+  </title>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-08-11T04:48:27+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/ValueSet"/>
+  <content value="complete"/>
+  <concept>
+    <code value="MALE"/>
+    <display value="Male"/>
+    <definition value="Male"/>
+    <designation>
+      <language value="es"/>
+      <value value="Masculino"/>
+    </designation>
+    <designation>
+      <language value="cs"/>
+      <value value="muž"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="Masculino"/>
+    </designation>
+    <designation>
+      <language value="ar"/>
+      <value value="ذكور"/>
+    </designation>
+    <designation>
+      <language value="uz"/>
+      <value value="Эркак"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Masculin"/>
+    </designation>
+    <designation>
+      <language value="ru"/>
+      <value value="мужской"/>
+    </designation>
+    <designation>
+      <language value="uz_UZ"/>
+      <value value="Erkak"/>
+    </designation>
+    <designation>
+      <language value="nb"/>
+      <value value="Mann"/>
+    </designation>
+    <designation>
+      <language value="id"/>
+      <value value="Laki-laki"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FEMALE"/>
+    <display value="Female"/>
+    <definition value="Female"/>
+    <designation>
+      <language value="es"/>
+      <value value="Femenino"/>
+    </designation>
+    <designation>
+      <language value="ar"/>
+      <value value="إناث"/>
+    </designation>
+    <designation>
+      <language value="uz"/>
+      <value value="Аёл"/>
+    </designation>
+    <designation>
+      <language value="cs"/>
+      <value value="ženský"/>
+    </designation>
+    <designation>
+      <language value="uz_UZ"/>
+      <value value="Аyol"/>
+    </designation>
+    <designation>
+      <language value="ru"/>
+      <value value="женский"/>
+    </designation>
+    <designation>
+      <language value="nb"/>
+      <value value="Kvinne"/>
+    </designation>
+    <designation>
+      <language value="id"/>
+      <value value="Wanita"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Féminin"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="Feminino"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="TG"/>
+    <display value="Transgender"/>
+    <definition value="Transgender"/>
+    <designation>
+      <language value="pt"/>
+      <value value="Transgênero"/>
+    </designation>
+    <designation>
+      <language value="cs"/>
+      <value value="Transsexuál"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Transgenre"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+    <designation>
+      <language value="uz"/>
+      <value value="Бошқалар"/>
+    </designation>
+    <designation>
+      <language value="ar"/>
+      <value value="أخرى"/>
+    </designation>
+    <designation>
+      <language value="id"/>
+      <value value="Lain-lain"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="Outros"/>
+    </designation>
+    <designation>
+      <language value="cs"/>
+      <value value="Ostatní"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Autre"/>
+    </designation>
+    <designation>
+      <language value="nb"/>
+      <value value="Andre"/>
+    </designation>
+    <designation>
+      <language value="uz_UZ"/>
+      <value value="Boshqalar"/>
+    </designation>
+    <designation>
+      <language value="ru"/>
+      <value value="Другой"/>
+    </designation>
+    <designation>
+      <language value="es"/>
+      <value value="Otro"/>
+    </designation>
+  </concept>
+</CodeSystem>

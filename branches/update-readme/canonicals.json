@@ -1,0 +1,113 @@
+[
+  {
+    "id" : "dhis2.fhir.demo.base",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "patient-sex-at-birth",
+    "type" : "CodeSystem",
+    "url" : "http://example.com/fhir/example/CodeSystem/patient-sex-at-birth",
+    "version" : "1.0.0",
+    "name" : "PatientSexAtBirth"
+  },
+  {
+    "id" : "PatientRegistrationQuestionnaire",
+    "type" : "Questionnaire",
+    "url" : "http://example.com/fhir/example/Questionnaire/PatientRegistrationQuestionnaire",
+    "version" : "1.0.0"
+  },
+  {
+    "id" : "AttributeValue",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/AttributeValue",
+    "version" : "1.0.0",
+    "name" : "AttributeValue"
+  },
+  {
+    "id" : "BaseOrgUnit",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/BaseOrgUnit",
+    "version" : "1.0.0",
+    "name" : "BaseOrgUnit"
+  },
+  {
+    "id" : "ConsentToBeContacted",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/ConsentToBeContacted",
+    "version" : "1.0.0",
+    "name" : "ConsentToBeContacted"
+  },
+  {
+    "id" : "DHIS2BasePatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/DHIS2BasePatient",
+    "version" : "1.0.0",
+    "name" : "DHIS2BasePatient"
+  },
+  {
+    "id" : "DateOfBirthIsEstimated",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/DateOfBirthIsEstimated",
+    "version" : "1.0.0",
+    "name" : "DateOfBirthIsEstimated"
+  },
+  {
+    "id" : "Level",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/Level",
+    "version" : "1.0.0",
+    "name" : "Level"
+  },
+  {
+    "id" : "OrgUnit",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/OrgUnit",
+    "version" : "1.0.0",
+    "name" : "OrgUnit"
+  },
+  {
+    "id" : "OrgUnitOrganization",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/OrgUnitOrganization",
+    "version" : "1.0.0",
+    "name" : "OrgUnitOrganization"
+  },
+  {
+    "id" : "OrganisationUnitGroup",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/OrganisationUnitGroup",
+    "version" : "1.0.0",
+    "name" : "OrganisationUnitGroup"
+  },
+  {
+    "id" : "PatientInfo",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PatientInfo",
+    "version" : "1.0.0",
+    "name" : "PatientInfo"
+  },
+  {
+    "id" : "ShortName",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/ShortName",
+    "version" : "1.0.0",
+    "name" : "ShortName"
+  },
+  {
+    "id" : "patient-sex-at-birth-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/patient-sex-at-birth-vs",
+    "version" : "1.0.0",
+    "name" : "PatientSexAtBirthVS"
+  },
+  {
+    "id" : "P0RAq93jsi9",
+    "type" : "CodeSystem",
+    "url" : "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem",
+    "version" : "1.0.0",
+    "name" : "OptionSet_P0RAq93jsi9"
+  }
+]

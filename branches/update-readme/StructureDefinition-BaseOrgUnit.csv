@@ -1,0 +1,27 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"BaseOrgUnit","BaseOrgUnit","","","",0,*,"","","","null {[]} {[]}
+","Base Org Unit","Base Org Unit.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"BaseOrgUnit.id","BaseOrgUnit.id","","","",0,1,"","","","string {[]} {[]}
+","unique IDfor the org unit","unique IDfor the org unit","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.id",0,1,"",""
+"BaseOrgUnit.code","BaseOrgUnit.code","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.code",1,1,"",""
+"BaseOrgUnit.href","BaseOrgUnit.href","","","",0,1,"","","","string {[]} {[]}
+","unique URL where the unit is available from","unique URL where the unit is available from","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.href",0,1,"",""
+"BaseOrgUnit.level","BaseOrgUnit.level","","","",1,1,"","","","integer {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.level",1,1,"",""
+"BaseOrgUnit.parent","BaseOrgUnit.parent","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.parent",0,1,"",""
+"BaseOrgUnit.name","BaseOrgUnit.name","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.name",1,1,"",""
+"BaseOrgUnit.shortName","BaseOrgUnit.shortName","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.shortName",1,1,"",""
+"BaseOrgUnit.description","BaseOrgUnit.description","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.description",0,1,"",""
+"BaseOrgUnit.openingDate","BaseOrgUnit.openingDate","","","",1,1,"","","","date {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.openingDate",1,1,"",""
+"BaseOrgUnit.geometry","BaseOrgUnit.geometry","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.geometry",0,1,"",""
+"BaseOrgUnit.organisationUnitGroups","BaseOrgUnit.organisationUnitGroups","","","",0,*,"","","","Identifier {[]} {[]}
+","groups that contain this org unit","groups that contain this org unit","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.organisationUnitGroups",0,*,"",""
+"BaseOrgUnit.attributeValues","BaseOrgUnit.attributeValues","","","",0,*,"","","","string {[]} {[]}
+","additional attributes that are in this org unit","additional attributes that are in this org unit","","","","","","","","","",,,,,"",,,,"BaseOrgUnit.attributeValues",0,*,"",""

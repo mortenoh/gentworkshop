@@ -1,0 +1,228 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "P0RAq93jsi9",
+  "meta" : {
+    "lastUpdated" : "2022-02-10T15:35:46.309+01:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">MALE<a name=\"P0RAq93jsi9-MALE\"> </a></td><td>Male</td><td>Male</td></tr><tr><td style=\"white-space:nowrap\">FEMALE<a name=\"P0RAq93jsi9-FEMALE\"> </a></td><td>Female</td><td>Female</td></tr><tr><td style=\"white-space:nowrap\">TG<a name=\"P0RAq93jsi9-TG\"> </a></td><td>Transgender</td><td>Transgender</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"P0RAq93jsi9-OTHER\"> </a></td><td>Other</td><td>Other</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Arabic (ar)</b></td><td><b>Czech (cs)</b></td><td><b>Spanish (es)</b></td><td><b>French (fr)</b></td><td><b>id</b></td><td><b>nb</b></td><td><b>Portuguese (pt)</b></td><td><b>Русский (Russian, ru)</b></td><td><b>uz</b></td><td><b>uz_UZ</b></td></tr><tr><td>MALE</td><td>ذكور</td><td>muž</td><td>Masculino</td><td>Masculin</td><td>Laki-laki</td><td>Mann</td><td>Masculino</td><td>мужской</td><td>Эркак</td><td>Erkak</td></tr><tr><td>FEMALE</td><td>إناث</td><td>ženský</td><td>Femenino</td><td>Féminin</td><td>Wanita</td><td>Kvinne</td><td>Feminino</td><td>женский</td><td>Аёл</td><td>Аyol</td></tr><tr><td>TG</td><td></td><td>Transsexuál</td><td></td><td>Transgenre</td><td></td><td></td><td>Transgênero</td><td></td><td></td><td></td></tr><tr><td>OTHER</td><td>أخرى</td><td>Ostatní</td><td>Otro</td><td>Autre</td><td>Lain-lain</td><td>Andre</td><td>Outros</td><td>Другой</td><td>Бошқалар</td><td>Boshqalar</td></tr></table></div>"
+  },
+  "url" : "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/CodeSystem",
+  "identifier" : [{
+    "system" : "http://dhis2.org/optionSet/id",
+    "value" : "P0RAq93jsi9"
+  }],
+  "version" : "1.0.0",
+  "name" : "OptionSet_P0RAq93jsi9",
+  "title" : "HIV - Gender",
+  "_title" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "cs"
+      },
+      {
+        "url" : "content",
+        "valueString" : "HIV - pohlaví"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    },
+    {
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "fr"
+      },
+      {
+        "url" : "content",
+        "valueString" : "VIH - Genre"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-08-11T04:48:27+00:00",
+  "publisher" : "My Organization",
+  "contact" : [{
+    "name" : "My Organization",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : true,
+  "valueSet" : "https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/ValueSet",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "MALE",
+    "display" : "Male",
+    "definition" : "Male",
+    "designation" : [{
+      "language" : "es",
+      "value" : "Masculino"
+    },
+    {
+      "language" : "cs",
+      "value" : "muž"
+    },
+    {
+      "language" : "pt",
+      "value" : "Masculino"
+    },
+    {
+      "language" : "ar",
+      "value" : "ذكور"
+    },
+    {
+      "language" : "uz",
+      "value" : "Эркак"
+    },
+    {
+      "language" : "fr",
+      "value" : "Masculin"
+    },
+    {
+      "language" : "ru",
+      "value" : "мужской"
+    },
+    {
+      "language" : "uz_UZ",
+      "value" : "Erkak"
+    },
+    {
+      "language" : "nb",
+      "value" : "Mann"
+    },
+    {
+      "language" : "id",
+      "value" : "Laki-laki"
+    }]
+  },
+  {
+    "code" : "FEMALE",
+    "display" : "Female",
+    "definition" : "Female",
+    "designation" : [{
+      "language" : "es",
+      "value" : "Femenino"
+    },
+    {
+      "language" : "ar",
+      "value" : "إناث"
+    },
+    {
+      "language" : "uz",
+      "value" : "Аёл"
+    },
+    {
+      "language" : "cs",
+      "value" : "ženský"
+    },
+    {
+      "language" : "uz_UZ",
+      "value" : "Аyol"
+    },
+    {
+      "language" : "ru",
+      "value" : "женский"
+    },
+    {
+      "language" : "nb",
+      "value" : "Kvinne"
+    },
+    {
+      "language" : "id",
+      "value" : "Wanita"
+    },
+    {
+      "language" : "fr",
+      "value" : "Féminin"
+    },
+    {
+      "language" : "pt",
+      "value" : "Feminino"
+    }]
+  },
+  {
+    "code" : "TG",
+    "display" : "Transgender",
+    "definition" : "Transgender",
+    "designation" : [{
+      "language" : "pt",
+      "value" : "Transgênero"
+    },
+    {
+      "language" : "cs",
+      "value" : "Transsexuál"
+    },
+    {
+      "language" : "fr",
+      "value" : "Transgenre"
+    }]
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other",
+    "definition" : "Other",
+    "designation" : [{
+      "language" : "uz",
+      "value" : "Бошқалар"
+    },
+    {
+      "language" : "ar",
+      "value" : "أخرى"
+    },
+    {
+      "language" : "id",
+      "value" : "Lain-lain"
+    },
+    {
+      "language" : "pt",
+      "value" : "Outros"
+    },
+    {
+      "language" : "cs",
+      "value" : "Ostatní"
+    },
+    {
+      "language" : "fr",
+      "value" : "Autre"
+    },
+    {
+      "language" : "nb",
+      "value" : "Andre"
+    },
+    {
+      "language" : "uz_UZ",
+      "value" : "Boshqalar"
+    },
+    {
+      "language" : "ru",
+      "value" : "Другой"
+    },
+    {
+      "language" : "es",
+      "value" : "Otro"
+    }]
+  }]
+}
