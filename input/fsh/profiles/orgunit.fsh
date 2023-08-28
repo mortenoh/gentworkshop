@@ -1,7 +1,7 @@
 Profile: OrgUnit
 Parent: Location
-Title: ""
-Description: ""
+Title: "Organization Unit"
+Description: "Organization Unit."
 
 * identifier 0..* // TO DO: Slice for id, code, href 
 * extension contains 
@@ -62,7 +62,7 @@ Description: "Attribute Value."
 
 
 
-
+/*
 Instance: OrgUnit1
 InstanceOf: OrgUnit
 
@@ -99,3 +99,4 @@ RuleSet: CodingAttribute(attribute,value)
 * extension[attribute][=].extension[=].valueString = #{value}
 
 * insert StringAttribute(SystemZcode,123456)
+*/
